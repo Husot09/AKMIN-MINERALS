@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { ContactCTA } from "@/components/ContactCTA";
-import { MaterialComparison } from "@/components/MaterialComparison";
 import { PageHero } from "@/components/PageHero";
-import { SectionHeading } from "@/components/SectionHeading";
 import { materials, pageIntro } from "@/lib/content";
 import { createMetadata } from "@/lib/metadata";
 
@@ -68,18 +66,6 @@ export default function MaterialsPage() {
               </article>
             );
           })}
-        </div>
-      </section>
-      <section className="bg-white px-5 py-20 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <SectionHeading
-            eyebrow="Material Comparison"
-            title="Choosing materials by technical function."
-            text="Feldspar and quartz are often discussed together, but each contributes differently to ceramic and industrial systems."
-          />
-          <div className="mt-10">
-            <MaterialComparison />
-          </div>
         </div>
       </section>
       <ContactCTA />
