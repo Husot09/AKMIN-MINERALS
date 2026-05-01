@@ -18,15 +18,17 @@ export default function HomePage() {
     <>
       <section className="relative min-h-[calc(100vh-74px)] overflow-hidden bg-ink text-white">
         <Image
-          src="/images/akmin-mineral-hero.png"
-          alt="Abstract feldspar and quartz mineral texture with technical processing lines"
+          src="/images/akmin-quarry-rocks.webp"
+          alt="Akmin feldspar and quartz material at a quarry site"
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/82 to-ink/35" aria-hidden="true" />
-        <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-ink to-transparent" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/34" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/22" aria-hidden="true" />
+        <div className="absolute inset-0 bg-mineral-grid bg-[size:38px_38px] opacity-[0.08] mix-blend-screen" aria-hidden="true" />
+        <div className="absolute right-0 top-0 h-full w-1/2 bg-gradient-to-l from-teal/18 to-transparent" aria-hidden="true" />
         <div className="relative mx-auto flex min-h-[calc(100vh-74px)] max-w-7xl items-center px-5 py-20 lg:px-8">
           <div className="max-w-3xl">
             <p className="reveal text-sm font-bold uppercase tracking-[0.2em] text-sand">Akmin Industrial Minerals</p>
@@ -56,12 +58,25 @@ export default function HomePage() {
             />
             <div className="grid gap-5 md:grid-cols-2">
               {materials.map((material) => {
-                const Icon = material.icon;
+                const image =
+                  material.slug === "feldspar"
+                    ? "/images/akmin-processing-pile.webp"
+                    : "/images/akmin-quarry-rocks.webp";
                 return (
-                  <article key={material.name} className="rounded-sm border border-ink/10 bg-white p-6 shadow-sm">
-                    <Icon className="h-9 w-9 text-teal" aria-hidden="true" />
-                    <h2 className="mt-5 text-2xl font-semibold text-ink">{material.name}</h2>
-                    <p className="mt-4 text-sm leading-7 text-stone">{material.overview}</p>
+                  <article key={material.name} className="relative min-h-72 overflow-hidden rounded-sm border border-ink/10 bg-white p-7 shadow-sm">
+                    <Image
+                      src={image}
+                      alt={`${material.name} material at Akmin operations`}
+                      fill
+                      sizes="(min-width: 768px) 320px, 100vw"
+                      className="object-cover opacity-20 grayscale-[20%]"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-white via-white/94 to-white/72" aria-hidden="true" />
+                    <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-teal/12 blur-3xl" aria-hidden="true" />
+                    <div className="relative flex min-h-56 flex-col justify-end">
+                      <h2 className="text-2xl font-semibold text-ink">{material.name}</h2>
+                      <p className="mt-4 text-sm leading-7 text-stone">{material.overview}</p>
+                    </div>
                   </article>
                 );
               })}

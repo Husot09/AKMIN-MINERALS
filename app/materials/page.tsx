@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ContactCTA } from "@/components/ContactCTA";
 import { MaterialComparison } from "@/components/MaterialComparison";
 import { PageHero } from "@/components/PageHero";
@@ -18,16 +19,26 @@ export default function MaterialsPage() {
       <section className="bg-mineral px-5 py-20 lg:px-8">
         <div className="mx-auto max-w-7xl space-y-10">
           {materials.map((material) => {
-            const Icon = material.icon;
+            const image =
+              material.slug === "feldspar"
+                ? "/images/akmin-processing-pile.webp"
+                : "/images/akmin-quarry-rocks.webp";
             return (
-              <article key={material.slug} id={material.slug} className="rounded-sm border border-ink/10 bg-white p-6 shadow-sm md:p-8">
+              <article key={material.slug} id={material.slug} className="relative overflow-hidden rounded-sm border border-ink/10 bg-white p-6 shadow-sm md:p-8">
+                <Image
+                  src={image}
+                  alt={`${material.name} material from Akmin operations`}
+                  fill
+                  sizes="100vw"
+                  className="object-cover opacity-[0.12] grayscale-[20%]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-white/96 to-white/82" aria-hidden="true" />
                 <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-                  <div>
-                    <Icon className="h-11 w-11 text-teal" aria-hidden="true" />
-                    <h2 className="mt-5 text-3xl font-semibold text-ink">{material.name}</h2>
+                  <div className="relative">
+                    <h2 className="text-3xl font-semibold text-ink">{material.name}</h2>
                     <p className="mt-5 text-base leading-8 text-stone">{material.overview}</p>
                   </div>
-                  <div className="grid gap-6 md:grid-cols-2">
+                  <div className="relative grid gap-6 md:grid-cols-2">
                     <div>
                       <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-teal">Industrial uses</h3>
                       <ul className="mt-4 space-y-3 text-sm leading-7 text-stone">

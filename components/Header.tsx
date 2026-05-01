@@ -14,13 +14,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-mineral/92 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Main navigation">
-        <Link href="/" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="flex h-10 w-10 items-center justify-center rounded-sm bg-ink text-sm font-bold tracking-[0.12em] text-mineral">
+        <Link href="/" className="group flex items-center gap-4" onClick={() => setOpen(false)}>
+          <span className="flex h-12 w-12 items-center justify-center rounded-sm bg-ink text-base font-bold tracking-[0.12em] text-mineral shadow-sm md:h-14 md:w-14 md:text-lg">
             AK
           </span>
           <span className="leading-tight">
-            <span className="block text-sm font-bold uppercase tracking-[0.16em] text-ink">Akmin</span>
-            <span className="block text-xs font-medium text-stone">Industrial Minerals</span>
+            <span className="block text-lg font-bold uppercase tracking-[0.18em] text-ink md:text-xl">Akmin</span>
+            <span className="block text-sm font-semibold text-stone md:text-base">Industrial Minerals</span>
           </span>
         </Link>
 

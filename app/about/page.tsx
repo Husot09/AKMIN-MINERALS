@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { ContactCTA } from "@/components/ContactCTA";
 import { PageHero } from "@/components/PageHero";
@@ -61,6 +62,23 @@ export default function AboutPage() {
                 <h2 className="mt-4 text-xl font-semibold text-ink">{item.title}</h2>
                 <p className="mt-3 text-sm leading-7 text-stone">{item.text}</p>
               </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-5 pb-20 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-4 md:grid-cols-3">
+            {[
+              ["/images/akmin-processing-pile.webp", "Processed industrial mineral pile"],
+              ["/images/akmin-quarry-rocks.webp", "Akmin quarry material and site"],
+              ["/images/akmin-mineral-hero.png", "Feldspar and quartz mineral texture"]
+            ].map(([src, alt]) => (
+              <div key={src} className="relative h-56 overflow-hidden rounded-sm border border-ink/10 bg-ink shadow-sm">
+                <Image src={src} alt={alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover opacity-[0.72] saturate-[0.82]" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink/45 via-transparent to-transparent" aria-hidden="true" />
+              </div>
             ))}
           </div>
         </div>
