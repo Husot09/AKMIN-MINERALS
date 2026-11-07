@@ -113,7 +113,7 @@ const I18N = {
     // Contact page
     "contact.hero.kicker": "Contact",
     "contact.hero.title": "Start a technical conversation.",
-    "contact.hero.sub": "Tell us about your material requirements, formulation challenge or R&D question — by form, phone or email.",
+    "contact.hero.sub": "Tell us about your material requirements, formulation challenge or R&D question. By form, phone or email.",
 
     "contact.info.address.title": "Address",
     "contact.info.address.text": "Adnan Menderes Bulvarı 161/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
@@ -255,7 +255,7 @@ const I18N = {
 
     "contact.hero.kicker": "İletişim",
     "contact.hero.title": "Teknik bir görüşme başlatalım.",
-    "contact.hero.sub": "Hammadde ihtiyacınızı, reçeteyle ilgili sorunuzu veya Ar-Ge talebinizi bize iletin; form, telefon ya da e-posta ile.",
+    "contact.hero.sub": "Hammadde ihtiyacınızı, reçeteyle ilgili sorunuzu veya Ar-Ge talebinizi bize iletin. Form, telefon ya da e-posta ile.",
 
     "contact.info.address.title": "Adres",
     "contact.info.address.text": "Adnan Menderes Bulvarı 161/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
