@@ -51,19 +51,7 @@ const I18N = {
     "mat.hero.title": "Feldspar and quartz, understood in depth.",
     "mat.hero.sub": "Feldspar and quartz are used mainly in the ceramic and glass industries, but they also have a wide range of applications in other sectors. Drawing on the technical knowledge we have built from producing and processing these minerals, Akmin develops raw material solutions tailored to our customers' needs. We also research new industrial uses for the by-products and waste materials generated during production.",
 
-    "mat.feldspar.title": "Feldspar",
-    "mat.feldspar.lead": "Feldspar is a core flux for both the ceramic and glass industries. Its alkali and alkaline-earth oxides drive vitrification in ceramic bodies and glazes, and serve as a flux and alumina source in glass batches.",
-    "mat.feldspar.li1": "Primary flux for ceramic bodies and glazes",
-    "mat.feldspar.li2": "Contributes Na₂O, K₂O and CaO oxides plus alumina (Al₂O₃) to the melt",
-    "mat.feldspar.li3": "Sensitive to chemistry consistency and particle size",
-    "mat.feldspar.li4": "Sourced from Çine, the world's most important feldspar region",
 
-    "mat.quartz.title": "Quartz",
-    "mat.quartz.lead": "Quartz provides the silica backbone of ceramic, glass and industrial formulations. Purity, sizing and thermal behavior determine its value in the final product.",
-    "mat.quartz.li1": "High-purity silica for ceramic, glass and industrial use",
-    "mat.quartz.li2": "Controls thermal expansion and structural stability",
-    "mat.quartz.li3": "Particle size distribution tailored to the application",
-    "mat.quartz.li4": "Consistent quality for demanding formulations",
 
     "mat.apps.label": "Typical applications",
     "chip.bodies": "Ceramic bodies",
@@ -195,19 +183,7 @@ const I18N = {
     "mat.hero.title": "Derinlemesine tanıdığımız iki mineral: feldspat ve kuvars.",
     "mat.hero.sub": "Feldspat ve kuvars, ağırlıklı olarak seramik ve cam sanayisinde kullanılsa da farklı endüstrilerde de geniş uygulama alanlarına sahiptir. Akmin olarak bu minerallerin üretiminden işlenmesine kadar edindiğimiz teknik bilgiyle, müşterilerimizin ihtiyaçlarına uygun hammadde çözümleri geliştiriyoruz. Aynı zamanda üretim sırasında ortaya çıkan yan ürünleri ve atık malzemeleri değerlendirerek bunlar için yeni endüstriyel kullanım alanları araştırıyoruz.",
 
-    "mat.feldspar.title": "Feldspat",
-    "mat.feldspar.lead": "Feldspat, hem seramik hem de cam endüstrisinin temel ergiticisidir. Alkali ve toprak alkali oksitleri, seramik bünye ve sırlarda vitrifikasyonu yönlendirir; cam harmanlarında ise ergitici ve alümina kaynağı olarak görev yapar.",
-    "mat.feldspar.li1": "Seramik bünye ve sırlar için birincil ergitici",
-    "mat.feldspar.li2": "Ergiyiğe Na₂O, K₂O ve CaO oksitleri ile alümina (Al₂O₃) kazandırır",
-    "mat.feldspar.li3": "Kimyasal tutarlılığa ve tane boyutuna duyarlıdır",
-    "mat.feldspar.li4": "Dünyanın en önemli feldspat bölgesi Çine'den tedarik edilir",
 
-    "mat.quartz.title": "Kuvars",
-    "mat.quartz.lead": "Kuvars; seramik, cam ve endüstriyel formülasyonların silika omurgasını oluşturur. Saflık, tane boyutu ve termal davranış, nihai üründeki değerini belirler.",
-    "mat.quartz.li1": "Seramik, cam ve endüstriyel kullanım için yüksek saflıkta silika",
-    "mat.quartz.li2": "Termal genleşmeyi ve yapısal kararlılığı kontrol eder",
-    "mat.quartz.li3": "Uygulamaya göre ayarlanmış tane boyu dağılımı",
-    "mat.quartz.li4": "Zorlu formülasyonlar için tutarlı kalite",
 
     "mat.apps.label": "Tipik uygulamalar",
     "chip.bodies": "Seramik bünyeler",
