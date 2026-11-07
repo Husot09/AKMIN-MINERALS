@@ -3,11 +3,5 @@
   "buildCommand": "",
   "outputDirectory": ".",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/assets/img/conveyor.jpg",
-      "destination": "https://cdn.jsdelivr.net/gh/Husot09/AKMIN-MINERALS@85c7dbe0a8300db655cf9ae1cf6afa5160c2b67e/assets/img/conveyor.jpg"
-    }
-  ]
+  "trailingSlash": false
 }

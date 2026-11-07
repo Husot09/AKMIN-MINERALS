@@ -43,7 +43,7 @@ const I18N = {
     "home.about.btn": "Our story",
 
     "cta.title": "Let's talk about your next formulation.",
-    "cta.sub": "Whether you need consistent raw materials or a second opinion on a formulation, we are ready to help.",
+    "cta.sub": "You can contact us about raw material supply, formulation development and technical consultancy.",
     "cta.btn": "Contact us",
 
     // Materials page
@@ -85,7 +85,7 @@ const I18N = {
     "about.story.p2": "Today, Akmin applies this experience across the feldspar and quartz value chain: combining technical research, enrichment know-how, ceramic formulation support and applied R&D to develop new applications for industrial minerals.",
 
     "about.values.kicker": "How we work",
-    "about.values.text": "Akmin works to develop mineral solutions that are technically reliable, economically viable and environmentally responsible. We aim to be measured by the consistency of our materials, the clarity of our technical advice and the long-term value we create for our customers.",
+    "about.values.text": "Akmin develops mineral solutions that are technically reliable, economically viable and environmentally responsible. Our priorities are consistent raw material quality, strong technical expertise and creating long-term value for our customers.",
 
     "about.timeline.kicker": "Milestones",
     "about.timeline.title": "From pioneers to mineral developers.",
@@ -188,7 +188,7 @@ const I18N = {
     "home.about.btn": "Hikayemiz",
 
     "cta.title": "Yeni reçeteniz için konuşalım.",
-    "cta.sub": "İster tutarlı hammadde arayın, ister bir reçete için ikinci bir görüş isteyin; size yardımcı olmaya hazırız.",
+    "cta.sub": "Hammadde tedariki, reçete geliştirme ve teknik danışmanlık konularında bizimle iletişime geçebilirsiniz.",
     "cta.btn": "Bize ulaşın",
 
     "mat.hero.kicker": "Hammaddeler",
@@ -228,7 +228,7 @@ const I18N = {
     "about.story.p2": "Bugün Akmin bu deneyimi feldspat ve kuvars değer zincirinin tamamında uyguluyor: teknik araştırma, zenginleştirme bilgisi, seramik reçete desteği ve uygulamalı Ar-Ge'yi bir araya getirerek endüstriyel mineraller için yeni uygulamalar geliştiriyor.",
 
     "about.values.kicker": "Nasıl çalışıyoruz",
-    "about.values.text": "Akmin; teknik olarak güvenilir, ekonomik olarak uygulanabilir ve çevreye duyarlı mineral çözümleri geliştirmek için çalışır. Malzemelerimizin tutarlılığı, teknik önerilerimizin netliği ve müşterilerimiz için yarattığımız uzun vadeli değerle ölçülmeyi hedefliyoruz.",
+    "about.values.text": "Akmin, teknik açıdan güvenilir, ekonomik açıdan uygulanabilir ve çevresel sorumluluğu gözeten mineral çözümleri geliştirir. Önceliğimiz, tutarlı hammadde kalitesi, güçlü teknik bilgi birikimi ve müşterilerimiz için uzun vadeli değer yaratmaktır.",
 
     "about.timeline.kicker": "Kilometre taşları",
     "about.timeline.title": "Öncü yıllardan maden geliştirmeye.",
