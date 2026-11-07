@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akmin-minerals.vercel.app/sitemap.xml
