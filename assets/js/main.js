@@ -35,7 +35,7 @@ const I18N = {
     "svc.3.title": "Processing & enrichment",
     "svc.3.text": "Deep experience in beneficiation and flotation of Turkish feldspar ores.",
     "svc.4.title": "Applied R&D",
-    "svc.4.text": "We test, develop and explore — pursuing new applications for feldspar and quartz beyond their traditional markets.",
+    "svc.4.text": "We test, develop and explore: pursuing new applications for feldspar and quartz beyond their traditional markets.",
 
     "home.about.kicker": "About Akmin",
     "home.about.title": "From market leadership to technical depth.",
@@ -180,7 +180,7 @@ const I18N = {
     "svc.3.title": "Zenginleştirme ve proses",
     "svc.3.text": "Türk feldspat cevherlerinin zenginleştirilmesi ve flotasyonunda derin deneyim.",
     "svc.4.title": "Uygulamalı Ar-Ge",
-    "svc.4.text": "Test ediyor, geliştiriyor ve araştırıyoruz; feldspat ve kuvars için geleneksel pazarların ötesinde yeni uygulama alanları arıyoruz.",
+    "svc.4.text": "Test ediyor, geliştiriyor ve araştırıyoruz: feldspat ve kuvars için geleneksel pazarların ötesinde yeni uygulama alanları arıyoruz.",
 
     "home.about.kicker": "Akmin Hakkında",
     "home.about.title": "Pazar liderliğinden teknik derinliğe.",
