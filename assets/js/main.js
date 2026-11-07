@@ -11,13 +11,13 @@ const I18N = {
 
     // Home
     "home.hero.kicker": "Industrial minerals · Çine, Aydın, Türkiye",
-    "home.hero.title": "Feldspar and quartz, with expertise across the value chain.",
+    "home.hero.title": "Feldspar and Quartz Supply for Industrial Manufacturers",
     "home.hero.sub": "Akmin combines mineral supply with applied technical know-how, supporting ceramic, glass and industrial manufacturers in formulation development, material performance and new applications.",
     "home.hero.cta1": "Discuss your requirements",
     "home.hero.cta2": "Explore materials",
 
     "home.materials.kicker": "Materials",
-    "home.materials.title": "Feldspar and quartz, with consistency at the core.",
+    "home.materials.title": "Consistent Quality, Reliable Supply.",
     "home.materials.sub": "Akmin focuses on the minerals it knows best: feldspar and quartz for ceramics, glass and industrial applications. Alongside supply, we continue to explore new uses through technical research, enrichment know-how and applied R&D.",
     "home.feldspar.title": "Feldspar",
     "home.feldspar.text": "A core flux for ceramic bodies and glazes, valued for its firing performance and alkali contribution.",
@@ -156,13 +156,13 @@ const I18N = {
     "nav.cta": "İletişime geçin",
 
     "home.hero.kicker": "Endüstriyel mineraller · Çine, Aydın, Türkiye",
-    "home.hero.title": "Feldspat ve kuvars; değer zincirinin tamamında uzmanlık.",
+    "home.hero.title": "Endüstriyel üreticiler için feldspat ve kuvars tedariki",
     "home.hero.sub": "Akmin, mineral tedarikini uygulamalı teknik bilgiyle birleştirir; seramik, cam ve endüstriyel üreticilere reçete geliştirme, malzeme performansı ve yeni uygulamalar konusunda destek olur.",
     "home.hero.cta1": "İhtiyacınızı görüşelim",
     "home.hero.cta2": "Hammaddeleri inceleyin",
 
     "home.materials.kicker": "Hammaddeler",
-    "home.materials.title": "Feldspat ve kuvars; özünde tutarlılık.",
+    "home.materials.title": "Tutarlı kalite, güvenilir tedarik.",
     "home.materials.sub": "Akmin, en iyi bildiği minerallere odaklanır: seramik, cam ve endüstriyel uygulamalar için feldspat ve kuvars. Tedarikin yanı sıra teknik araştırma, zenginleştirme bilgisi ve uygulamalı Ar-Ge ile yeni kullanım alanlarını keşfetmeye devam ediyoruz.",
     "home.feldspar.title": "Feldspat",
     "home.feldspar.text": "Seramik bünye ve sırların temel ergiticisi; pişirim performansı ve alkali katkısıyla değer taşır.",
