@@ -136,6 +136,7 @@ const I18N = {
     "footer.tagline": "Feldspar, quartz and formulation expertise for ceramics, glass and industry.",
     "footer.pages": "Pages",
     "footer.contact": "Contact",
+    "footer.linkedin": "LinkedIn",
     "footer.rights": "All rights reserved.",
   },
 
@@ -267,6 +268,7 @@ const I18N = {
     "footer.tagline": "Seramik, cam ve endüstri için feldspat, kuvars ve reçete uzmanlığı.",
     "footer.pages": "Sayfalar",
     "footer.contact": "İletişim",
+    "footer.linkedin": "LinkedIn",
     "footer.rights": "Tüm hakları saklıdır.",
   },
 };

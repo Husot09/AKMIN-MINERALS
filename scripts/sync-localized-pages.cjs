@@ -46,7 +46,7 @@ function render(source, page, lang) {
   html = html.replace(/^\s*<meta property="og:[^\n]+\n/gm, '\n');
   html = html.replace(/\n  <!-- SEO metadata -->[\s\S]*?<!-- End SEO metadata -->\n/, '\n');
   const url = origin + route(page, lang);
-  const org = { '@type': 'Organization', '@id': origin + '/#organization', name: 'Akmin Industrial Minerals', url: origin + '/', email: 'akmin@akminmaden.com', telephone: '+90-256-711-07-21', address: { '@type': 'PostalAddress', streetAddress: 'Adnan Menderes Bulvarı 161/2, Şevketiye Mah.', addressLocality: 'Çine', addressRegion: 'Aydın', postalCode: '09500', addressCountry: 'TR' } };
+  const org = { '@type': 'Organization', '@id': origin + '/#organization', name: 'Akmin Industrial Minerals', url: origin + '/', sameAs: ['https://www.linkedin.com/company/akmin-industrial-minerals/'], email: 'akmin@akminmaden.com', telephone: '+90-256-711-07-21', address: { '@type': 'PostalAddress', streetAddress: 'Adnan Menderes Bulvarı 161/2, Şevketiye Mah.', addressLocality: 'Çine', addressRegion: 'Aydın', postalCode: '09500', addressCountry: 'TR' } };
   const graph = [org, { '@type': 'WebPage', '@id': url + '#webpage', url, name: title, description, inLanguage: lang, about: { '@id': org['@id'] } }];
   const metadata = `
   <!-- SEO metadata -->
