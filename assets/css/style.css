@@ -91,7 +91,7 @@ a { color: inherit; text-decoration: none; }
   font-weight: 600;
 }
 
-.lang-toggle button {
+.lang-toggle [data-lang] {
   border: 0;
   background: transparent;
   padding: 6px 13px;
@@ -101,7 +101,7 @@ a { color: inherit; text-decoration: none; }
   transition: background 0.15s, color 0.15s;
 }
 
-.lang-toggle button.active { background: var(--ink); color: #fff; }
+.lang-toggle [data-lang].active { background: var(--ink); color: #fff; }
 
 .nav-cta {
   display: inline-block;

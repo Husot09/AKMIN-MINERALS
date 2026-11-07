@@ -57,7 +57,7 @@ Once all photos are in the branch, the branch is a complete copy of the site.
   2. `I18N.en[key]` in main.js,
   3. `I18N.tr[key]` in main.js.
   If you only change the HTML, the JS overwrites it on page load.
-- Language choice is saved in `localStorage` (`akmin-lang`).
+- Language is selected by the URL: English at `/`, `/materials`, `/about`, `/contact`; Turkish at `/tr`, `/tr/materials`, `/tr/about`, `/tr/contact`. EN/TR links preserve query parameters and anchors.
 - The recipe-tool preview tabs and captions are in `TOOL_SHOTS` in main.js (they have their own en/tr text).
 - Sanity check after editing: every `data-i18n` key used in the HTML must exist in both `en` and `tr`.
 
@@ -112,7 +112,22 @@ Once all photos are in the branch, the branch is a complete copy of the site.
 - Connect the custom domain (akminmaden.com) in Vercel. This needs DNS access.
 - Replace the mailto contact form with a real form service (e.g. Formspree) that sends to
   akmin@akminmaden.com.
-- Turkish is rendered client-side only, so Google indexes English only. Separate /tr/ pages
-  with hreflang tags would fix this.
+- Keep the `/tr` pages and reciprocal `hreflang` tags synchronized when editing copy.
 - Possible new page about the third feldspar & quartz deposit project.
 - Unused CSS (`.stats*`, `.compare-table*`) can be cleaned up.
+
+## 9. SEO and localized-page maintenance
+
+- The preferred public origin is `https://www.akmin.info`. `akmin.info` redirects there.
+- Canonical URLs, hreflang, Open Graph URLs, robots.txt and the sitemap use that origin.
+- English source HTML and both I18N dictionaries remain the copy sources. After editing them,
+  run `node scripts/sync-localized-pages.cjs` and `node scripts/check-seo.cjs` before committing.
+- The sync script refreshes metadata and writes fully translated `tr/*.html` pages. Edit the
+  existing EN/TR dictionaries rather than editing generated Turkish HTML by hand.
+- The checked-in HTML is served directly; these are maintenance scripts, not a deployment build step.
+- Language controls are crawlable links, styled like the previous buttons. URL language wins
+  over browser preferences; there is no automatic language redirect.
+- Two named legacy Vercel aliases redirect permanently to the public origin. Unique preview
+  hosts remain available for review.
+- Analytics and Google Search Console setup are separate from these SEO files. Wix analytics
+  is not an accurate tracker of the replacement static site.

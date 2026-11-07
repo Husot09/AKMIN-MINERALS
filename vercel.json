@@ -3,5 +3,39 @@
   "buildCommand": "",
   "outputDirectory": ".",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tr/index",
+      "destination": "/tr",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "akmin-minerals.vercel.app"
+        }
+      ],
+      "destination": "https://www.akmin.info/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "akmin-minerals-husot09s-projects.vercel.app"
+        }
+      ],
+      "destination": "https://www.akmin.info/:path*",
+      "permanent": true
+    }
+  ]
 }

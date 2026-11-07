@@ -277,7 +277,7 @@ const I18N = {
 const TOOL_SHOTS = [
   {
     id: "sheet",
-    img: "assets/img/tool-sheet-preview.jpg",
+    img: "/assets/img/tool-sheet-preview.jpg",
     tab: { en: "Formulation sheet", tr: "Reçete sayfası" },
     caption: {
       en: "Every material's oxide and mineral analysis in one live sheet. Percentages, totals and cost recalculate instantly as the blend changes.",
@@ -286,7 +286,7 @@ const TOOL_SHOTS = [
   },
   {
     id: "report",
-    img: "assets/img/tool-report-preview.jpg",
+    img: "/assets/img/tool-report-preview.jpg",
     tab: { en: "Target control", tr: "Hedef kontrolü" },
     caption: {
       en: "Every generated recipe is checked against its chemical targets and any deviation is flagged openly. Target values are hidden — they are part of our know-how.",
@@ -345,19 +345,22 @@ function applyLang(lang) {
     const key = el.getAttribute("data-i18n-placeholder");
     if (dict[key] !== undefined) el.setAttribute("placeholder", dict[key]);
   });
-  document.querySelectorAll(".lang-toggle button").forEach((btn) => {
+  document.querySelectorAll(".lang-toggle [data-lang]").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.lang === lang);
   });
-  localStorage.setItem("akmin-lang", lang);
   renderDemo(lang);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   // Language
-  const saved = localStorage.getItem("akmin-lang") || "en";
-  applyLang(saved);
-  document.querySelectorAll(".lang-toggle button").forEach((btn) => {
-    btn.addEventListener("click", () => applyLang(btn.dataset.lang));
+  // The URL selects the language, so each version stays indexable and shareable.
+  const lang = document.documentElement.lang === "tr" ? "tr" : "en";
+  applyLang(lang);
+  document.querySelectorAll(".lang-toggle a").forEach((link) => {
+    const target = new URL(link.href);
+    target.search = window.location.search;
+    target.hash = window.location.hash;
+    link.href = target.href;
   });
 
   // Mobile nav

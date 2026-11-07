@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://akmin-minerals.vercel.app/</loc></url>
-  <url><loc>https://akmin-minerals.vercel.app/materials</loc></url>
-  <url><loc>https://akmin-minerals.vercel.app/about</loc></url>
-  <url><loc>https://akmin-minerals.vercel.app/contact</loc></url>
+  <url><loc>https://www.akmin.info/</loc></url>
+  <url><loc>https://www.akmin.info/tr</loc></url>
+  <url><loc>https://www.akmin.info/materials</loc></url>
+  <url><loc>https://www.akmin.info/tr/materials</loc></url>
+  <url><loc>https://www.akmin.info/about</loc></url>
+  <url><loc>https://www.akmin.info/tr/about</loc></url>
+  <url><loc>https://www.akmin.info/contact</loc></url>
+  <url><loc>https://www.akmin.info/tr/contact</loc></url>
 </urlset>
