@@ -47,6 +47,9 @@ const I18N = {
     "cta.btn": "Contact us",
 
     // Materials page
+    "mat.project.title": "Our latest project",
+    "mat.project.text": "Akmin is now focused on its latest feldspar and quartz project: a large-scale deposit developed over more than ten years of geological, technical and enrichment work. The project aims to turn lower-grade feldspar resources into economically viable reserves, anticipating the long-term decline of high-quality feldspar deposits worldwide.",
+
     "mat.hero.kicker": "Materials",
     "mat.hero.title": "Feldspar and quartz, understood in depth.",
     "mat.hero.sub": "Feldspar and quartz are used mainly in the ceramic and glass industries, but they also have a wide range of applications in other sectors. Drawing on the technical knowledge we have built from producing and processing these minerals, Akmin develops raw material solutions tailored to our customers' needs. We also research new industrial uses for the by-products and waste materials generated during production.",
@@ -89,7 +92,7 @@ const I18N = {
     "tl.3.text": "The second company was later sold to a Turkish company listed on the Istanbul Stock Exchange.",
     "tl.4.year": "Today",
     "tl.4.title": "Long-term resource development",
-    "tl.4.text": "Akmin is now focused on its third feldspar and quartz project: a large-scale deposit developed over more than ten years of geological, technical and enrichment work. The project aims to turn lower-grade feldspar resources into economically viable reserves, anticipating the long-term decline of high-quality feldspar deposits worldwide.",
+    "tl.4.text": "Akmin is now focused on its latest feldspar and quartz project: a large-scale deposit developed over more than ten years of geological, technical and enrichment work. The project aims to turn lower-grade feldspar resources into economically viable reserves, anticipating the long-term decline of high-quality feldspar deposits worldwide.",
 
     "about.leader.kicker": "Leadership",
     "about.leader.title": "Hands-on expertise, direct technical involvement.",
@@ -179,6 +182,9 @@ const I18N = {
     "cta.sub": "Hammadde tedariki, reçete geliştirme ve teknik danışmanlık konularında bizimle iletişime geçebilirsiniz.",
     "cta.btn": "Bize ulaşın",
 
+    "mat.project.title": "En yeni projemiz",
+    "mat.project.text": "Akmin bugün en yeni feldspat ve kuvars projesine odaklanıyor: on yılı aşkın jeolojik, teknik ve zenginleştirme çalışmasıyla geliştirilen büyük ölçekli bir yatak. Proje, dünya genelinde yüksek kaliteli feldspat yataklarının uzun vadede azalmasını öngörerek düşük tenörlü feldspat kaynaklarını ekonomik olarak işletilebilir rezervlere dönüştürmeyi hedefliyor.",
+
     "mat.hero.kicker": "Hammaddeler",
     "mat.hero.title": "Derinlemesine tanıdığımız iki mineral: feldspat ve kuvars.",
     "mat.hero.sub": "Feldspat ve kuvars, ağırlıklı olarak seramik ve cam sanayisinde kullanılsa da farklı endüstrilerde de geniş uygulama alanlarına sahiptir. Akmin olarak bu minerallerin üretiminden işlenmesine kadar edindiğimiz teknik bilgiyle, müşterilerimizin ihtiyaçlarına uygun hammadde çözümleri geliştiriyoruz. Aynı zamanda üretim sırasında ortaya çıkan yan ürünleri ve atık malzemeleri değerlendirerek bunlar için yeni endüstriyel kullanım alanları araştırıyoruz.",
@@ -220,7 +226,7 @@ const I18N = {
     "tl.3.text": "İkinci şirket daha sonra Borsa İstanbul'da işlem gören bir Türk şirketine satıldı.",
     "tl.4.year": "Bugün",
     "tl.4.title": "Uzun vadeli kaynak geliştirme",
-    "tl.4.text": "Akmin bugün üçüncü feldspat ve kuvars projesine odaklanıyor: on yılı aşkın jeolojik, teknik ve zenginleştirme çalışmasıyla geliştirilen büyük ölçekli bir yatak. Proje, dünya genelinde yüksek kaliteli feldspat yataklarının uzun vadede azalmasını öngörerek düşük tenörlü feldspat kaynaklarını ekonomik olarak işletilebilir rezervlere dönüştürmeyi hedefliyor.",
+    "tl.4.text": "Akmin bugün en yeni feldspat ve kuvars projesine odaklanıyor: on yılı aşkın jeolojik, teknik ve zenginleştirme çalışmasıyla geliştirilen büyük ölçekli bir yatak. Proje, dünya genelinde yüksek kaliteli feldspat yataklarının uzun vadede azalmasını öngörerek düşük tenörlü feldspat kaynaklarını ekonomik olarak işletilebilir rezervlere dönüştürmeyi hedefliyor.",
 
     "about.leader.kicker": "Yönetim",
     "about.leader.title": "Sahadan gelen uzmanlık, doğrudan teknik katılım.",
