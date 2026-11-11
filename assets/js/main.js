@@ -243,7 +243,7 @@ const I18N = {
 
     "contact.info.address.title": "Adres",
     "contact.info.company": "Akmin Endüstri Mineralleri Sanayi ve Ticaret A.Ş.",
-    "contact.info.address.text": "Aydın/Çine Şevketiye Mahallesi Adnan Menderes Bulvarı No: 87/2",
+    "contact.info.address.text": "Türkiye, Aydın/Çine Şevketiye Mahallesi Adnan Menderes Bulvarı No: 87/2",
     "contact.info.phone.title": "Telefon",
     "contact.info.email.title": "E-posta",
 
