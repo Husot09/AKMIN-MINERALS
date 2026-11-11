@@ -39,7 +39,7 @@ const I18N = {
 
     "home.about.kicker": "About Akmin",
     "home.about.title": "From market leadership to technical depth.",
-    "home.about.p1": "Between 2001 and 2006, Akmin was Turkey's largest feldspar producer and exporter, in both volume and value. Today that operational experience is focused on what matters most to our clients: material consistency, enrichment expertise and formulation logic.",
+    "home.about.p1": "In 2001–2002, Akmin was Turkey's largest feldspar exporter. Today that operational experience is focused on what matters most to our clients: material consistency, enrichment expertise and formulation logic.",
     "home.about.btn": "Our story",
 
     "cta.title": "Let's talk about your next formulation.",
@@ -72,7 +72,7 @@ const I18N = {
 
     "about.story.kicker": "Our story",
     "about.story.title": "Four decades in Turkish feldspar.",
-    "about.story.p1": "Akmin's roots go back to the early 1980s, alongside the development of Turkey's feldspar industry. Built on deep operational experience in flotation, beneficiation, production and export, the company grew into Turkey's largest feldspar producer and exporter between 2001 and 2006, both in terms of volume and value.",
+    "about.story.p1": "Akmin's roots go back to the early 1980s, alongside the development of Turkey's feldspar industry. Built on deep operational experience in flotation, beneficiation, production and export, the company grew into Turkey's largest feldspar exporter in 2001–2002.",
     "about.story.p2": "Today, Akmin applies this experience across the feldspar and quartz value chain: combining technical research, enrichment know-how, ceramic formulation support and applied R&D to develop new applications for industrial minerals.",
 
     "about.values.kicker": "How we work",
@@ -107,7 +107,8 @@ const I18N = {
     "contact.hero.sub": "Tell us about your material requirements, formulation challenge or R&D question. By form, phone or email.",
 
     "contact.info.address.title": "Address",
-    "contact.info.address.text": "Adnan Menderes Bulvarı 161/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
+    "contact.info.company": "Akmin Endustri Minerallari Sanayi ve Ticaret A.S.",
+    "contact.info.address.text": "Adnan Menderes Bulvarı 87/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
     "contact.info.phone.title": "Phone",
     "contact.info.email.title": "Email",
 
@@ -147,7 +148,7 @@ const I18N = {
     "nav.contact": "İletişim",
     "nav.cta": "İletişime geçin",
 
-    "home.hero.kicker": "Endüstriyel mineraller · Çine, Aydın, Türkiye",
+    "home.hero.kicker": "Endustri Minerallari · Çine, Aydın, Türkiye",
     "home.hero.title": "Endüstriyel üreticiler için feldspat ve kuvars tedariki",
     "home.hero.sub": "Akmin, mineral tedarikini uygulamalı teknik bilgiyle birleştirir; seramik, cam ve endüstriyel üreticilere reçete geliştirme, malzeme performansı ve yeni uygulamalar konusunda destek olur.",
     "home.hero.cta1": "İhtiyaçlarınızı görüşelim",
@@ -176,7 +177,7 @@ const I18N = {
 
     "home.about.kicker": "Akmin Hakkında",
     "home.about.title": "Pazar liderliğinden teknik derinliğe.",
-    "home.about.p1": "Akmin, 2001–2006 yılları arasında hem hacim hem de değer bakımından Türkiye'nin en büyük feldspat üreticisi ve ihracatçısıydı. Bugün bu operasyonel deneyimi, müşterilerimiz için en önemli konulara odaklıyoruz: malzeme tutarlılığı, zenginleştirme uzmanlığı ve formülasyon bilgisi.",
+    "home.about.p1": "Akmin, 2001–2002 yıllarında Türkiye'nin en büyük feldspat ihracatçısıydı. Bugün bu operasyonel deneyimi, müşterilerimiz için en önemli konulara odaklıyoruz: malzeme tutarlılığı, zenginleştirme uzmanlığı ve formülasyon bilgisi.",
     "home.about.btn": "Hikayemiz",
 
     "cta.title": "Yeni reçeteniz için konuşalım.",
@@ -207,7 +208,7 @@ const I18N = {
 
     "about.story.kicker": "Hikayemiz",
     "about.story.title": "Türkiye feldspat sektöründe kırk yıl.",
-    "about.story.p1": "Akmin'in kökleri, Türkiye feldspat sektörünün gelişimiyle birlikte 1980'lerin başına uzanır. Flotasyon, zenginleştirme, üretim ve ihracattaki derin operasyonel deneyim üzerine kurulan şirket, 2001–2006 yılları arasında hem hacim hem de değer bakımından Türkiye'nin en büyük feldspat üreticisi ve ihracatçısı oldu.",
+    "about.story.p1": "Akmin'in kökleri, Türkiye feldspat sektörünün gelişimiyle birlikte 1980'lerin başına uzanır. Flotasyon, zenginleştirme, üretim ve ihracattaki derin operasyonel deneyim üzerine kurulan şirket, 2001–2002 yıllarında Türkiye'nin en büyük feldspat ihracatçısı oldu.",
     "about.story.p2": "Bugün Akmin bu deneyimi feldspat ve kuvars değer zincirinin tamamında uyguluyor: teknik araştırma, zenginleştirme bilgisi, seramik reçete desteği ve uygulamalı Ar-Ge'yi bir araya getirerek endüstriyel mineraller için yeni uygulamalar geliştiriyor.",
 
     "about.values.kicker": "Nasıl çalışıyoruz",
@@ -241,7 +242,8 @@ const I18N = {
     "contact.hero.sub": "Hammadde ihtiyacınızı, reçeteyle ilgili sorunuzu veya Ar-Ge talebinizi bize iletin. Form, telefon ya da e-posta ile.",
 
     "contact.info.address.title": "Adres",
-    "contact.info.address.text": "Adnan Menderes Bulvarı 161/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
+    "contact.info.company": "Akmin Endustri Minerallari Sanayi ve Ticaret A.S.",
+    "contact.info.address.text": "Aydın/Çine Şevketiye Mahallesi Adnan Menderes Bulvarı No: 87/2",
     "contact.info.phone.title": "Telefon",
     "contact.info.email.title": "E-posta",
 

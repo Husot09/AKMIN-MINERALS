@@ -637,6 +637,7 @@ a { color: inherit; text-decoration: none; }
 
 .contact-info-list h3 { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
 .contact-info-list p { color: var(--muted); font-size: 15px; }
+.contact-info-list .contact-company { color: var(--ink); font-weight: 600; margin-bottom: 8px; }
 .contact-info-list a:hover { color: var(--accent-deep); }
 
 .contact-form {
