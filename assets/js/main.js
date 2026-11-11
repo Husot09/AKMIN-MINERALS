@@ -107,7 +107,7 @@ const I18N = {
     "contact.hero.sub": "Tell us about your material requirements, formulation challenge or R&D question. By form, phone or email.",
 
     "contact.info.address.title": "Address",
-    "contact.info.company": "Akmin Endustri Minerallari Sanayi ve Ticaret A.S.",
+    "contact.info.company": "Akmin Industrial Minerals Industry and Trade Inc.",
     "contact.info.address.text": "Adnan Menderes Bulvarı 87/2, Şevketiye Mah., Çine / Aydın 09500, Türkiye",
     "contact.info.phone.title": "Phone",
     "contact.info.email.title": "Email",
@@ -148,7 +148,7 @@ const I18N = {
     "nav.contact": "İletişim",
     "nav.cta": "İletişime geçin",
 
-    "home.hero.kicker": "Endustri Minerallari · Çine, Aydın, Türkiye",
+    "home.hero.kicker": "Endüstri Mineralleri · Çine, Aydın, Türkiye",
     "home.hero.title": "Endüstriyel üreticiler için feldspat ve kuvars tedariki",
     "home.hero.sub": "Akmin, mineral tedarikini uygulamalı teknik bilgiyle birleştirir; seramik, cam ve endüstriyel üreticilere reçete geliştirme, malzeme performansı ve yeni uygulamalar konusunda destek olur.",
     "home.hero.cta1": "İhtiyaçlarınızı görüşelim",
@@ -242,7 +242,7 @@ const I18N = {
     "contact.hero.sub": "Hammadde ihtiyacınızı, reçeteyle ilgili sorunuzu veya Ar-Ge talebinizi bize iletin. Form, telefon ya da e-posta ile.",
 
     "contact.info.address.title": "Adres",
-    "contact.info.company": "Akmin Endustri Minerallari Sanayi ve Ticaret A.S.",
+    "contact.info.company": "Akmin Endüstri Mineralleri Sanayi ve Ticaret A.Ş.",
     "contact.info.address.text": "Aydın/Çine Şevketiye Mahallesi Adnan Menderes Bulvarı No: 87/2",
     "contact.info.phone.title": "Telefon",
     "contact.info.email.title": "E-posta",

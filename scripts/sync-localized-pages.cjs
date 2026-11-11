@@ -10,7 +10,7 @@ const escape = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').repla
 const pages = {
   index: {
     en: ['Feldspar & Quartz Supplier in Türkiye | Akmin Minerals', 'Feldspar and quartz supply from Çine, Aydın, with technical expertise in mineral processing, formulation development and industrial applications.'],
-    tr: ['Feldspat ve Kuvars Tedariki | Akmin Endustri Minerallari', 'Çine, Aydın’dan feldspat ve kuvars tedariki. Akmin, mineral işleme, reçete geliştirme ve endüstriyel uygulamalarda teknik bilgi ve deneyim sunar.'],
+    tr: ['Feldspat ve Kuvars Tedariki | Akmin Endüstri Mineralleri', 'Çine, Aydın’dan feldspat ve kuvars tedariki. Akmin, mineral işleme, reçete geliştirme ve endüstriyel uygulamalarda teknik bilgi ve deneyim sunar.'],
   },
   materials: {
     en: ['Feldspar & Quartz Supply and Development | Akmin', 'Explore Akmin’s feldspar and quartz expertise, raw material solutions and latest mineral resource development project in Çine, Türkiye.'],
@@ -18,7 +18,7 @@ const pages = {
   },
   about: {
     en: ['About Akmin | Turkish Feldspar & Quartz Expertise', 'Discover Akmin’s four decades of experience in Turkish feldspar, mineral processing, export and long-term feldspar and quartz resource development.'],
-    tr: ['Hakkımızda | Akmin Endustri Minerallari', 'Akmin’in Türkiye feldspat sektöründeki kırk yıllık deneyimini, mineral işleme, ihracat ve uzun vadeli kaynak geliştirme çalışmalarını tanıyın.'],
+    tr: ['Hakkımızda | Akmin Endüstri Mineralleri', 'Akmin’in Türkiye feldspat sektöründeki kırk yıllık deneyimini, mineral işleme, ihracat ve uzun vadeli kaynak geliştirme çalışmalarını tanıyın.'],
   },
   contact: {
     en: ['Contact Akmin | Feldspar & Quartz Supply Enquiries', 'Contact Akmin in Çine, Aydın about feldspar and quartz supply, formulation development and technical consultancy. Call +90 549 669 0909.'],
@@ -46,7 +46,7 @@ function render(source, page, lang) {
   html = html.replace(/^\s*<meta property="og:[^\n]+\n/gm, '\n');
   html = html.replace(/\n  <!-- SEO metadata -->[\s\S]*?<!-- End SEO metadata -->\n/, '\n');
   const url = origin + route(page, lang);
-  const org = { '@type': 'Organization', '@id': origin + '/#organization', name: 'Akmin Industrial Minerals', legalName: 'Akmin Endustri Minerallari Sanayi ve Ticaret A.S.', url: origin + '/', sameAs: ['https://www.linkedin.com/company/akmin-industrial-minerals/'], email: 'akmin@akminmaden.com', telephone: '+90-549-669-0909', address: { '@type': 'PostalAddress', streetAddress: 'Adnan Menderes Bulvarı 87/2, Şevketiye Mah.', addressLocality: 'Çine', addressRegion: 'Aydın', postalCode: '09500', addressCountry: 'TR' } };
+  const org = { '@type': 'Organization', '@id': origin + '/#organization', name: 'Akmin Industrial Minerals', legalName: 'Akmin Endüstri Mineralleri Sanayi ve Ticaret A.Ş.', url: origin + '/', sameAs: ['https://www.linkedin.com/company/akmin-industrial-minerals/'], email: 'akmin@akminmaden.com', telephone: '+90-549-669-0909', address: { '@type': 'PostalAddress', streetAddress: 'Adnan Menderes Bulvarı 87/2, Şevketiye Mah.', addressLocality: 'Çine', addressRegion: 'Aydın', postalCode: '09500', addressCountry: 'TR' } };
   const graph = [org, { '@type': 'WebPage', '@id': url + '#webpage', url, name: title, description, inLanguage: lang, about: { '@id': org['@id'] } }];
   const metadata = `
   <!-- SEO metadata -->
