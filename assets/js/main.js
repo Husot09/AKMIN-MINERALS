@@ -177,7 +177,7 @@ const I18N = {
 
     "home.about.kicker": "Akmin Hakkında",
     "home.about.title": "Pazar liderliğinden teknik derinliğe.",
-    "home.about.p1": "Akmin, 2001–2002 yıllarında Türkiye'nin en büyük feldspat ihracatçısıydı. Bugün bu operasyonel deneyimi, müşterilerimiz için en önemli konulara odaklıyoruz: malzeme tutarlılığı, zenginleştirme uzmanlığı ve formülasyon bilgisi.",
+    "home.about.p1": "Akmin, 2001–2002 yılları arasında Türkiye'nin en büyük feldspat ihracatçısıydı. Bugün bu operasyonel deneyimi, müşterilerimiz için en önemli konulara odaklıyoruz: malzeme tutarlılığı, zenginleştirme uzmanlığı ve formülasyon bilgisi.",
     "home.about.btn": "Hikayemiz",
 
     "cta.title": "Yeni reçeteniz için konuşalım.",
